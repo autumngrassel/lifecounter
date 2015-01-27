@@ -32,6 +32,7 @@
                     android:layout_width="fill_parent"
                     android:text="@string/player1">
                 </TextView>
+
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="fill_parent"
@@ -41,7 +42,7 @@
                         android:id="@+id/p1_a1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_one">
                     </Button>
@@ -49,33 +50,27 @@
                         android:id="@+id/p1_s1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_one">
                     </Button>
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:weightSum="1"
-                    android:layout_gravity="center_horizontal">
+
                     <Button
                         android:id="@+id/p1_a5"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_five">
                     </Button>
                     <Button
                         android:id="@+id/p1_s5"
                         android:layout_height="match_parent"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
                         android:layout_width="40dp">
-                    </Button>
+                    </Button>   
                 </LinearLayout>
             </LinearLayout>
             <LinearLayout
@@ -97,9 +92,9 @@
                     android:weightSum="1">
                     <Button
                         android:id="@+id/p2_a1"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_one">
                     </Button>
@@ -107,29 +102,22 @@
                         android:id="@+id/p2_s1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_one">
                     </Button>
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:weightSum="1"
-                    android:layout_gravity="center_horizontal">
                     <Button
                         android:id="@+id/p2_a5"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_five">
                     </Button>
                     <Button
                         android:id="@+id/p2_s5"
                         android:layout_height="match_parent"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
                         android:layout_width="40dp">
@@ -164,7 +152,7 @@
                         android:id="@+id/p3_a1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_one">
                     </Button>
@@ -172,29 +160,22 @@
                         android:id="@+id/p3_s1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_one">
                     </Button>
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:weightSum="1"
-                    android:layout_gravity="center_horizontal">
                     <Button
                         android:id="@+id/p3_a5"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_five">
                     </Button>
                     <Button
                         android:id="@+id/p3_s5"
                         android:layout_height="match_parent"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
                         android:layout_width="40dp">
@@ -210,7 +191,7 @@
 
                 <TextView
                     android:layout_height="wrap_content"
-                    android:layout_width="fill_parent"
+                    android:layout_width="wrap_content"
                     android:text="@string/player4">
                 </TextView>
                 <LinearLayout
@@ -222,7 +203,7 @@
                         android:id="@+id/p4_a1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_one">
                     </Button>
@@ -230,29 +211,22 @@
                         android:id="@+id/p4_s1"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_one">
                     </Button>
-                </LinearLayout>
-                <LinearLayout
-                    android:orientation="horizontal"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
-                    android:weightSum="1"
-                    android:layout_gravity="center_horizontal">
                     <Button
                         android:id="@+id/p4_a5"
                         android:layout_height="match_parent"
                         android:layout_width="40dp"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/plus_five">
                     </Button>
                     <Button
                         android:id="@+id/p4_s5"
                         android:layout_height="match_parent"
-                        android:layout_weight=".5"
+                        android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
                         android:layout_width="40dp">
