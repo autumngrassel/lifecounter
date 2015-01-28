@@ -4,19 +4,15 @@
     <string name="app_name">Life Counter</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="player1">Player 1 \n Life Count: </string>
-    <string name="player2">Player 2 \n Life Count: </string>
-    <string name="player3">Player 3 \n Life Count: </string>
-    <string name="player4">Player 4 \n Life Count: </string>
+    <string name="player1">Player 1 \n Life Count: 20</string>
+    <string name="player2">Player 2 \n Life Count: 20</string>
+    <string name="player3">Player 3 \n Life Count: 20</string>
+    <string name="player4">Player 4 \n Life Count: 20</string>
     <string name="plus_one">+</string>
     <string name="minus_one">-</string>
     <string name="plus_five">+5</string>
     <string name="minus_five">-5</string>
-    <string name="p1_lives">10</string>
-    <string name="p2_lives">10</string>
-    <string name="p3_lives">10</string>
-    <string name="p4_lives">10</string>
     <string name="lives_left">Lives remaining:</string>
-
+    <string name="you_lose"> </string>
 
 </resources>

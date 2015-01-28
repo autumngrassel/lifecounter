@@ -4,7 +4,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:id="@+id/screen"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#ffffffff">
 
 
     <TableLayout
@@ -28,9 +29,13 @@
                 >
 
                 <TextView
+                    android:id="@+id/player1"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"
-                    android:text="@string/player1">
+                    android:text="@string/player1"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold"
+                    android:textIsSelectable="false">
                 </TextView>
 
                 <LinearLayout
@@ -44,7 +49,10 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_one">
+                        android:text="@string/plus_one"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP1">
                     </Button>
                     <Button
                         android:id="@+id/p1_s1"
@@ -52,7 +60,10 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/minus_one">
+                        android:text="@string/minus_one"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP1">
                     </Button>
 
                     <Button
@@ -61,7 +72,10 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_five">
+                        android:text="@string/plus_five"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP1">
                     </Button>
                     <Button
                         android:id="@+id/p1_s5"
@@ -69,7 +83,10 @@
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
-                        android:layout_width="40dp">
+                        android:layout_width="40dp"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP1">
                     </Button>   
                 </LinearLayout>
             </LinearLayout>
@@ -81,9 +98,12 @@
                 >
 
                 <TextView
+                    android:id="@+id/player2"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"
-                    android:text="@string/player2">
+                    android:text="@string/player2"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold">
                 </TextView>
                 <LinearLayout
                     android:orientation="horizontal"
@@ -96,7 +116,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_one">
+                        android:text="@string/plus_one"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP2">
                     </Button>
                     <Button
                         android:id="@+id/p2_s1"
@@ -104,7 +128,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/minus_one">
+                        android:text="@string/minus_one"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP2">
                     </Button>
                     <Button
                         android:id="@+id/p2_a5"
@@ -112,7 +140,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_five">
+                        android:text="@string/plus_five"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP2">
                     </Button>
                     <Button
                         android:id="@+id/p2_s5"
@@ -120,7 +152,11 @@
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
-                        android:layout_width="40dp">
+                        android:layout_width="40dp"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP2">
                     </Button>
                 </LinearLayout>
             </LinearLayout>
@@ -139,9 +175,12 @@
                 >
 
                 <TextView
+                    android:id="@+id/player3"
                     android:layout_height="wrap_content"
                     android:layout_width="fill_parent"
-                    android:text="@string/player3">
+                    android:text="@string/player3"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold">
                 </TextView>
                 <LinearLayout
                     android:orientation="horizontal"
@@ -154,7 +193,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_one">
+                        android:text="@string/plus_one"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP3">
                     </Button>
                     <Button
                         android:id="@+id/p3_s1"
@@ -162,7 +205,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/minus_one">
+                        android:text="@string/minus_one"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP3">
                     </Button>
                     <Button
                         android:id="@+id/p3_a5"
@@ -170,7 +217,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_five">
+                        android:text="@string/plus_five"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP3">
                     </Button>
                     <Button
                         android:id="@+id/p3_s5"
@@ -178,7 +229,11 @@
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
-                        android:layout_width="40dp">
+                        android:layout_width="40dp"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP3">
                     </Button>
                 </LinearLayout>
             </LinearLayout>
@@ -190,9 +245,12 @@
                 >
 
                 <TextView
+                    android:id="@+id/player4"
                     android:layout_height="wrap_content"
                     android:layout_width="wrap_content"
-                    android:text="@string/player4">
+                    android:text="@string/player4"
+                    android:textColor="#ff000000"
+                    android:textStyle="bold">
                 </TextView>
                 <LinearLayout
                     android:orientation="horizontal"
@@ -205,7 +263,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_one">
+                        android:text="@string/plus_one"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP4">
                     </Button>
                     <Button
                         android:id="@+id/p4_s1"
@@ -213,7 +275,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/minus_one">
+                        android:text="@string/minus_one"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP4">
                     </Button>
                     <Button
                         android:id="@+id/p4_a5"
@@ -221,7 +287,11 @@
                         android:layout_width="40dp"
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
-                        android:text="@string/plus_five">
+                        android:text="@string/plus_five"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP4">
                     </Button>
                     <Button
                         android:id="@+id/p4_s5"
@@ -229,7 +299,11 @@
                         android:layout_weight=".2"
                         android:layout_margin="5dp"
                         android:text="@string/minus_five"
-                        android:layout_width="40dp">
+                        android:layout_width="40dp"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:background="#4e919191"
+                        android:onClick="updateP4">
                     </Button>
                 </LinearLayout>
             </LinearLayout>
@@ -237,4 +311,11 @@
 
 
     </TableLayout>
+    <TextView android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/you_lose"
+        android:padding="4dp">
+    </TextView>
 </RelativeLayout>

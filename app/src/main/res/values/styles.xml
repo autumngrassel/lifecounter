@@ -5,4 +5,9 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="text">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
